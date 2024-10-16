@@ -1,4 +1,4 @@
-# Matrices (two-dimensional arrays)
+# Augmentive and Alternative Communication Devices
 
 A project for CSC-207.
 
@@ -10,7 +10,7 @@ Authors:
 ---
 
 Overview:
-Augmentive and Alternative Communication Devices(Modeling a simple symbol based AAC device that has two levels of images)
+Modeling a simple symbol based AAC device that has two levels of images, using Associative Arrays
 
 ---
 
