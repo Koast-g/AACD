@@ -213,33 +213,6 @@ public class AACMappings implements AACPage {
     } // if
   } // getCategory()
 
-  // /**
-  //  * Determines if the provided image is in the set of images that can be displayed and false
-  //  * otherwise
-  //  *
-  //  * @param imageLoc the location of the category
-  //  * @return true if it is in the set of images that can be displayed, false otherwise
-  //  */
-  // public boolean hasImage(String imageLoc) {
-  //   Iterator<KVPair<String, AACCategory>> catIterator = array.iterator();
-  //   try {
-  //     while (catIterator.hasNext()) {
-  //       KVPair<String, AACCategory> pair = catIterator.next();
-  //       AACCategory cat = pair.getVal();
-  //       // Proccessing individual item
-  //       Iterator<KVPair<String, String>> itemIterator = cat.itemArray.iterator();
-  //       while (itemIterator.hasNext()) {
-  //         KVPair<String, String> item = itemIterator.next();
-  //         String curImageLoc = item.getKey();
-  //         if (curImageLoc == imageLoc) {
-  //           return true;
-  //         } // if
-  //       } // inner while
-  //     } // outer while
-  //   } catch (Exception e) {
-  //   } // tr/catch
-  //   return false;
-  // } // hasImage(String)
   /**
    * Determines if the provided image is in the set of images that can be displayed and false
    * otherwise
