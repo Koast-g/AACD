@@ -59,9 +59,6 @@ public class AACMappings implements AACPage {
       throw new FileNotFoundException();
     } // try/catch
     currentCat = homepage;
-    if (currentCat == null) {
-      currentCat = homepage;
-    } // if
   } // readFile(String)
 
   /**
